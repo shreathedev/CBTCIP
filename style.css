@@ -1,0 +1,77 @@
+#name {
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: default;
+}
+
+.view-more {
+    display: none;
+}
+
+#welcome-section,
+#experience,
+#education {
+    background-color: #292929;
+    color: white;
+}
+
+
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.menu-link {
+    
+    padding: 4px 3px; 
+    font-size: 16px; 
+}
+
+
+.menu-link {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-link:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.menu-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#welcome-section {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(./bg_mobile.jpg);
+    background-size: cover;
+    background-position: center;}
+
+
+@media (min-width: 768px){
+    #welcome-section {
+       background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(./bg-1.avif);
+       background-size: cover;
+       background-position: center;
+    }
+}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website of aspiring backend developer Shreya Debnath.">
+    <title>Shrey Debnath</title>
+    <link rel="icon" href="S letter.jpg" type="Shreya Debnath" sizes="16x16">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="welcome-section" class="w-full bg-cover h-screen flex flex-col">
+        <nav id="navbar" class="items-center bg-transparent p-4 hidden md:flex md:w-full justify-between">
+            <div class="w-full md:w-auto">
+                <div class="flex">
+                    <a href="#about-me" class="block md:inline-block md:mt-0 text-white hover:text-white mr-4 menu-link">
+                        About Me
+                    </a>
+                    <a href="#portfolio" class="block md:inline-block md:mt-0 text-white hover:text-white mr-4 menu-link">
+                        Portfolio
+                    </a>
+                   
+                    <a href="#tech" class="block md:inline-block md:mt-0 text-white hover:text-white mr-4 menu-link">
+                        Tech
+                    </a>
+                   
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex-grow flex flex-col items-center justify-center bg-transparent text-center mt-0 " style="margin-bottom: 7.5rem;">
+            <div class="rounded-full overflow-hidden bg-blue-500 w-40 h-40">
+                <img src="myPhoto.jpg" class="rounded-full object-cover h-full w-full" alt="Shreya's photo"/>
+            </div>
+            <h1 class="text-5xl text-white">Shreya Debnath</h1>
+            <h2 class="text-2xl text-white">Tech Enthusiast</h2>
+        </div>
+    </div>
+    
+    <div id="about-me" class="w-full bg-gray-100 h-auto text-center">
+        <h2 class="py-16 text-3xl">ABOUT ME</h2>
+        <p class="px-8 pb-16 md:px-20">
+            I'm Shreya Debnath, aspiring to be a Back-End Developer.
+        </p>
+    </div>
+
+    <div id="portfolio" class="w-full h-auto bg-gray-100 text-center p-4 pb-12">
+        <h2 class="font-semibold text-xl py-4">PORTFOLIO</h2>
+        <div class="flex flex-wrap justify-center">
+            <div class="max-w-sm overflow-hidden shadow-2xl bg-white my-4 mx-auto md:w-1/4 rounded">
+                <img class="w-full" src="twitter.jpg" alt="Tweet Sentimental Analysis">
+                <div class="px-6 py-4">
+                    <div class="font-semibold text-xl mb-2">
+                        <a href="https://github.com/shreathedev/Tweet-Sentimental-Analysis" class="hover:underline" target="_blank" rel="noopener noreferrer">Tweet Sentimental Analysis</a>
+                    </div>
+                    <p class="text-gray-700 text-base">
+                        Utilised Random Forest Classifier to generate a model which can classify a text as positive or negative after processing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="tech" class="w-full bg-gray-100 h-auto text-center py-12 px-6">
+        <h2 class="font-semibold text-2xl mb-6">TECH</h2>
+        <p class="md:w-1/2 md:mx-auto mb-8">Technologies / Tools I am currently working with</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:w-3/4 md:mx-auto">
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-code text-blue-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">C++</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fab fa-html5 text-orange-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">HTML</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fab fa-css3-alt text-blue-600 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">CSS</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fab fa-js-square text-yellow-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">JavaScript</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fab fa-node-js text-green-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">Node.js</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-brain text-purple-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">TensorFlow</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-laptop-code text-green-600 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">Scikit-Learn</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-rocket text-red-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">FastAPI</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-flask text-gray-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">Flask</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-code text-blue-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">VS Code</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fab fa-github text-black text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">GitHub</span>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md flex flex-col items-center">
+                <i class="fas fa-paper-plane text-orange-500 text-4xl mb-4"></i>
+                <span class="font-semibold text-gray-700">Postman</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+    
+    <div class="w-auto bg-gray-200 h-auto p-6">
+        <span id="name" class="text-left p-4 pl-0 md:pl-8">Developed by Shreya Debnath</span>
+        <div class="w-1/2 md:w-1/6 my-4 flex justify-around">
+            <a href="https://www.linkedin.com/in/shreyadebnath20/" aria-label="Linkedin" class="px-4 py-1 hover:bg-gray-500" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/shreathedev" aria-label="GitHub" class="px-4 py-1 hover:bg-gray-500" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
